@@ -28,7 +28,7 @@ if(chargeRate > 0.8) {
 }
 
 bool batteryIsOk(float temperature, float soc, float chargeRate) {
-  return isTemperatureOk(temperature) && isSocOk(soc) && isChargeRateOk(chargeRate);
+  return temperratureIsOk(temperature) && SocIsOk(soc) && ChargeRateIsOk(chargeRate);
 }
 int main() {
   assert(batteryIsOk(25, 70, 0.7));
