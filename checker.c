@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
+#include <stdbool.h>
 bool temperratureIsOk(float temperature)
 {
   if(temperature < 0 || temperature > 45) {
