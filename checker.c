@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
-#include <ValidTemperature.h>
- 
+#include <ValidTemperature.h> 
  
 // Pure function to check temperature
 //int isValidTemperature(float temperature) {
