@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <assert.h>
+#include <ValidTemperature.h>
  
  
 // Pure function to check temperature
-int isValidTemperature(float temperature) {
-    return (temperature >= 0) && (temperature <= 45);
-}
+//int isValidTemperature(float temperature) {
+//    return (temperature >= 0) && (temperature <= 45);
+//}
  
 // Pure function to check state of charge
 int isValidStateOfCharge(float stateOfCharge) {
